@@ -1,0 +1,39 @@
+.box {
+    width: 300px;
+    background-color: blue;
+    box-sizing: border-box;
+    border: 2px solid darkblue;
+}
+
+.leftbox {
+    direction: ltr;
+    transform: rotate(10deg);
+    animation: spinning 100s infinite;
+    
+}
+
+.rightbox {
+    direction: rtl;
+    margin:10px;
+    transform :rotate(10deg);
+    animation: spinning 100s infinite;
+}
+
+p {
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+@keyframes spinning {
+    from {
+        
+}
+to { transform: rotate(72000deg);
+}
+}
