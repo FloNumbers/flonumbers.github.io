@@ -58,3 +58,97 @@ footer {
 .index_text{
     text-align: center;
 }
+div.Studiemonitor th, td {
+    padding: 5px;
+    width: 20%;
+}
+div.Studiemonitor th {
+    text-align: center;
+}
+div.Studiemonitor th.tabletop{
+    border-style: none;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: black;
+}
+div.Studiemonitor tr.tabletop{
+    border-style: none;
+}
+div.Studiemonitor th.tablemid{
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+div.Studiemonitor tr.TotalEC{
+    border-top-style: double;
+    border-top-width: 3px;
+    border-top-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: black;
+    border-collapse: collapse;
+}
+div.Studiemonitor th.TotalEC{
+    border-right-style: inset;
+    border-right-width: 3px;
+    border-right-color: black;
+    border-collapse: collapse;
+}
+div.Studiemonitor tr{
+    border-right-style: hidden;
+    border-right-width: 3px;
+    border-right-color: black;
+    border-left-style: solid;
+    border-left-width: 3px;
+    border-left-color: black;
+}
+
+div.Studiemonitor {
+    font-family: verdana,arial,sans-serif;
+    font-size:11px;
+    color:#333333;
+    border-width: 1px;
+    border-color: #666666;
+    border-collapse: collapse;
+}
+div.Studiemonitor th {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #666666;
+    background-color: #dedede;
+}
+div.Studiemonitor td {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #666666;
+    background-color: #ffffff;
+}
+
+div.EC {
+    margin-top:35px;
+    font-family: verdana,arial,sans-serif;
+    font-size:11px;
+    color:#333333;
+    border-width: 1px;
+    border-color: #666666;
+    border-collapse: collapse;
+}
+div.EC th {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #666666;
+    background-color: #dedede;
+}
+div.EC td {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #666666;
+    background-color: #ffffff;
+}
+
+div.Studiemonitor table {
+    border-collapse: collapse;
+}
