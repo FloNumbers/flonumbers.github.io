@@ -220,15 +220,16 @@ p {
     justify-content: end;
     float: right;
     margin-top: -20%;
-    margin-right: 32%;
+    margin-right: 31%;
 }
 .studiewijzer {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     flex-direction: column;
-    float: right;
+    /* float: right; */
+    /* margin-top: -18%; */
+    margin-left: 60%;
     margin-top: -18%;
-    margin-right: 16%;
 }
 #behaald {
     background-color: #c90000;
