@@ -9,13 +9,12 @@
     direction: ltr;
     transform: rotate(10deg);
     animation: spinning 100s infinite;
-    
 }
 
 .rightbox {
     direction: rtl;
-    margin:10px;
-    transform :rotate(10deg);
+    margin: 10px;
+    transform: rotate(10deg);
     animation: spinning 100s infinite;
 }
 
@@ -31,9 +30,8 @@ p {
 }
 
 @keyframes spinning {
-    from {
-        
-}
-to { transform: rotate(72000deg);
-}
+    from {}
+    to {
+        transform: rotate(72000deg);
+    }
 }
