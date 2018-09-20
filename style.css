@@ -51,8 +51,10 @@ h2 {
     height: 400px;
 }
 
-p {
+.parProfile {
     text-align: center;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 footer {
@@ -199,11 +201,6 @@ div.Studiemonitor table {
     flex-direction: row;
 }
 
-p {
-    font-size: 20px;
-    font-weight: bold;
-}
-
 .kenmerken {
     display: flex;
     justify-content: center;
@@ -254,4 +251,12 @@ p {
 }
 #easteregg {
     color: #333;
+}
+.motivation-container {
+    text-align: center;    
+    width: 100%;
+}
+.motivation-text {
+    width: 80%;
+    display: inline-block;
 }
