@@ -260,3 +260,11 @@ div.Studiemonitor table {
     width: 80%;
     display: inline-block;
 }
+.beroepsbeeldContainer {
+    width: 100%;
+    text-align: center;
+}
+.beroepsbeeldText {
+    width: 80%;
+    display: inline-block;
+}
