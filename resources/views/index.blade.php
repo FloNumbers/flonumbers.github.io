@@ -10,7 +10,7 @@
             mij past. want tot nu toe zijn alle lessen heel praktisch geweest en daardoor leer ik veel beter.<br> Na 2
             weken vind ik HBO-ICT steeds leuker!
         </h4>
-        <img src="{{asset('/images/afbeelding.png')}}" class="pasfoto" />
-        <img src="{{asset('/images/C_Language_meme.jpg')}}" class="meme" />
+        <img src="{{secure_asset('/images/afbeelding.png')}}" class="pasfoto" />
+        <img src="{{secure_asset('/images/C_Language_meme.jpg')}}" class="meme" />
     </div>
 @endsection

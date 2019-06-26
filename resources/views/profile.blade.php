@@ -3,7 +3,7 @@
 @section('content')
 <h1>Profile</h1>
     <h2>Florian Sole</h2>
-    <img src='{{asset('/images/afbeelding.png')}}' width="100" height="100" class="pasfoto" />
+    <img src='{{secure_asset('/images/afbeelding.png')}}' width="100" height="100" class="pasfoto" />
     <br>
     <br>
     <br>
